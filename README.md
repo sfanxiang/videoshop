@@ -6,6 +6,18 @@
 
 Videoshop: Localized Semantic Video Editing with Noise-Extrapolated Diffusion Inversion.
 
+## Code Usage
+
+Make sure the input video has 14 frames. Run:
+```sh
+python3 run.py --video <INPUT VIDEO.mp4> --image <INPUT IMAGE.png> --output <OUTPUT VIDEO.mp4>
+```
+
+You can find more control knobs by invoking the script with `--help`:
+```sh
+python3 run.py --help
+```
+
 ## Citation
 
 ```
